@@ -1484,6 +1484,9 @@ ul {
   .footer-input {
     width: 264px;
   }
+  .footer-container {
+    margin-bottom: 0;
+  }
 
   /* .footer-container {
     max-width: 1160px;
