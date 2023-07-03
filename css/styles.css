@@ -507,7 +507,8 @@ ul {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px 24px;
+  justify-content: center;
+  gap: 72px;
   /* gap: 24px 82px; */
 }
 .team-item {
@@ -1469,7 +1470,7 @@ ul {
   }
 
   .footer-input-container {
-    text-align: start;
+    align-items: start;
   }
   .footer-form {
     /* display: flex;
