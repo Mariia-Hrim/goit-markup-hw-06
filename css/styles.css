@@ -35,6 +35,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.link {
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
   margin-top: 0;
@@ -1278,9 +1281,7 @@ ul {
   }
   .header-menu-item {
   }
-  .link {
-    text-decoration: none;
-  }
+
   .list {
     list-style: none;
   }
