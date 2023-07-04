@@ -438,7 +438,7 @@ ul {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -448,7 +448,7 @@ ul {
 .criteria-item-text {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -1370,6 +1370,7 @@ ul {
     color: #404bbf;
     position: relative;
   }
+
   .link {
     text-decoration: none;
   }
@@ -1651,6 +1652,7 @@ ul {
     color: #404bbf;
     position: relative;
   }
+
   .link {
     text-decoration: none;
   }
@@ -1749,6 +1751,25 @@ ul {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+  }
+  .criteria-subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    margin-bottom: 8px;
+  }
+  .criteria-item-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
   .question {
     padding-bottom: 120px;
