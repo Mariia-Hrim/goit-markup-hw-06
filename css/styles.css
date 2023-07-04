@@ -248,7 +248,7 @@ ul {
   text-transform: none;
 } */
 .mobi-link {
-  font-size: 36px;
+  font-size: 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -1278,6 +1278,9 @@ ul {
 @media screen and (min-width: 428px) {
   .header-container {
     max-width: 428px;
+  }
+  .mobi-link {
+    font-size: 36px;
   }
 
   .hero-container {
