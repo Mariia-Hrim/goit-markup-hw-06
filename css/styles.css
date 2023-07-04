@@ -260,12 +260,17 @@ ul {
   text-decoration: none;
 }
 
-.mobi-item:not(:last-child) {
+/* .mobi-item:not(:last-child) {
   margin-bottom: 40px;
+} */
+.mobi-item {
+  width: calc((100% - 2 * 24px) / 3);
 }
 .mobi-list {
-  padding-left: 40px;
-  margin-bottom: 284px;
+  /* margin-bottom: 284px; */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .mob-team-icon-fon {
@@ -288,7 +293,7 @@ ul {
   color: var(--accent-color);
 }
 .mobi-tel-list {
-  padding-left: 40px;
+  /* padding-left: 40px; */
   margin-top: 40px;
 }
 .mobi-em-link {
@@ -313,6 +318,9 @@ ul {
 }
 .link {
   text-decoration: none;
+}
+.mob-wrap {
+  margin-top: 32px;
 }
 .address-mob {
   /* margin-bottom: 48px; */
