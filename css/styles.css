@@ -320,7 +320,10 @@ ul {
   text-decoration: none;
 }
 .mob-wrap {
-  margin-top: 32px;
+  /* margin-top: 32px; */
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 24px);
 }
 .address-mob {
   /* margin-bottom: 48px; */
