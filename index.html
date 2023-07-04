@@ -26,6 +26,11 @@
           <a href="./index.html" class="header-logo link">
             Web<span class="header-logo-studio">Studio</span></a
           >
+          <button type="button" class="open-menu-btn" data-menu-open>
+            <svg class="icon-hamburger" width="32" height="22">
+              <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+            </svg>
+          </button>
           <ul class="header-menu list">
             <li class="header-menu-item">
               <a class="header-menu-link link current" href="./index.html"
@@ -56,26 +61,18 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="open-menu-btn" data-menu-open>
-          <svg class="icon-hamburger" width="32" height="22">
-            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-          </svg>
-        </button>
       </div>
-
       <div class="mob-menu is-hidden" data-menu>
         <button type="button" class="close-menu-btn" data-menu-close>
           <svg class="icon-close-black" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <div>
+        <div class="mob-wrap">
           <nav class="mob-menu-nav">
             <ul class="mobi-list list">
               <li class="mobi-item">
-                <a class="mobi-link link current-mob" href="./index.html"
-                  >Studio</a
-                >
+                <a class="mobi-link link current" href="./index.html">Studio</a>
               </li>
               <li class="mobi-item">
                 <a class="mobi-link link" href="./portfolio.html">Portfolio</a>
@@ -85,51 +82,55 @@
               </li>
             </ul>
           </nav>
-          <address class="address-mob">
-            <ul class="mobi-tel-list list">
-              <li class="mobi-tel-item">
-                <a class="mobi-tel-link link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-              <li class="mobi-item">
-                <a class="mobi-em-link link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
-          </address>
+          <div class="modal-contact-wrap">
+            <address class="address-mob">
+              <ul class="mobi-tel-list list">
+                <li class="mobi-tel-item">
+                  <a class="mobi-tel-link link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mobi-em-item">
+                  <a class="mobi-em-link link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <div class="mob-menu-icon-wrap">
+              <ul class="mob-team-icon-fon">
+                <li class="icon-item">
+                  <a class="team-link" href="">
+                    <svg class="team-item-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-insta"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon-item">
+                  <a class="team-link" href="">
+                    <svg class="team-item-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-tviter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon-item">
+                  <a class="team-link" href="">
+                    <svg class="team-item-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-fec"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="icon-item">
+                  <a class="team-link" href="">
+                    <svg class="team-item-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-in"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <ul class="mob-team-icon-fon">
-          <li class="icon-item">
-            <a class="team-link" href="">
-              <svg class="team-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-insta"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-item">
-            <a class="team-link" href="">
-              <svg class="team-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-tviter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-item">
-            <a class="team-link" href="">
-              <svg class="team-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-fec"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-item">
-            <a class="team-link" href="">
-              <svg class="team-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-in"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
       </div>
     </header>
 
